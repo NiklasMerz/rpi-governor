@@ -1,0 +1,26 @@
+{
+  "name": "rpi-governor",
+  "version": "1.0.0",
+  "description": "Simple cli tool for setting cpu governors",
+  "main": "index.js",
+  "bin": {
+    "rpi-governor": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiklasMerz/rpi-governor.git"
+  },
+  "keywords": [
+    "raspberrypi",
+    "pi"
+  ],
+  "author": "Niklas Merz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NiklasMerz/rpi-governor/issues"
+  },
+  "homepage": "https://github.com/NiklasMerz/rpi-governor#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
